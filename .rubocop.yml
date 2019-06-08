@@ -23,6 +23,7 @@ AllCops:
     - 'config.ru'
     - 'Rakefile'
     - 'app/jobs/*'
+    - 'node_modules/node-sass/src/libsass/**/*'
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
